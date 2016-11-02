@@ -1,0 +1,286 @@
+@charset "utf-8";
+body {
+	margin: 0;
+}
+#slogan {
+	width: 100%;
+	height: 45px;
+	/*background-color: rgba(255,255,255,0.5);*/
+	margin-bottom: 18px;
+	font-size: 45px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bolder;
+	color: #FFF;
+}
+#sloganText {
+	width: 100%;
+	height: 18px;
+	/*background-color: rgba(255,255,255,0.5);*/
+	margin-bottom: 24px;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	color: #FFF;
+}
+#locaTitle {
+	width: 100%;
+	height: 31px;
+	/*background-color: rgba(255,255,255,0.5);*/
+	margin-bottom: 10px;
+
+	font-size: 28px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bolder;
+	color: rgb(72,72,72);
+}
+#locaTitleText {
+	width: 100%;
+	height: 16px;
+	/*background-color: rgba(255,255,255,0.5);*/
+	margin-bottom: 39px;
+
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	color: rgb(72,72,72);
+}
+
+@media screen and (min-width:1051px) {/*電腦*/
+
+#navTop {
+	width: 100%;
+	height: 62px;
+	background-color: white;
+	position: fixed;
+	z-index: 999;
+}
+#logo {
+	width: 137px;
+	height: 62px;
+	background-image: url(../img/logo.png);
+	border-right: 1px gray solid;
+	float: left;
+}
+#search {
+	width: 61px;
+	height: 62px;
+	background-image: url(../img/search.png);
+	float: left;
+}
+#searchText {
+	width: 100px;
+	height: 31px;
+	margin-top: 19px;
+	float: left;
+}
+#navTopR {
+	float: right
+}
+#navTopR a:link, a:visited {
+	color: black;
+	text-decoration: none;
+	display: block;
+}
+#login {
+	width: 67px;
+	height: 28px;/*31-3*/
+	/*background-color: pink;*/
+	float: right;
+	margin-top: 10px;
+	padding-top: 3px;
+	border-left: 1px gray solid;
+}
+#signin {
+	width: 67px;
+	height: 28px;/*31-3*/
+	/*background-color: orange;*/
+	float: right;
+	margin-top: 10px;
+	padding-top: 3px;
+	border-left: 1px gray solid;
+}
+#help {
+	width: 67px;
+	height: 28px;/*31-3*/
+	/*background-color: pink;*/
+	float: right;
+	margin-top: 10px;
+	margin-left: 18px;
+	padding-top: 3px;
+	border-left: 1px gray solid;
+}
+#start {
+	width: 83px;
+	height: 14px;/*31-3-10-4*/
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  border: solid #bfbfbf 2px;
+  text-decoration: none;
+  float: right;
+  padding-top: 3px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+#start:hover {
+  border: solid #666666 2px;
+}
+
+#bgv {
+	width: 100%;
+	position: absolute;/*定位->飄浮起來~*/
+	z-index: -9999999;/*移到最下層,yellow塊才可以把它蓋住*/
+}
+#ad {
+	width: 100%;
+	height: 386px;/*600-214*/
+	padding-top: 214px;
+	/*background-color: green;*/
+	position: relative;
+}
+#howtoBtnPhone {
+	display: none;
+}
+
+#howtoBtn {
+	width: 173px;
+	height: 40px;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: rgba(255,255,255,0.5);
+  padding-top:5px;
+  padding-left:6px; 
+  text-decoration: none;
+}
+#howtoBtn:hover {
+  background: rgba(0,0,0,0.5);
+  text-decoration: none;
+}
+#booking {
+	width: 100%;
+	height: 76px;/*106-30*/
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	bottom: 0;
+	padding-top: 30px;
+
+}
+#bookingAll {
+	width: 90%;
+	height: 76px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#bookingAPhone {
+	display: none;
+}
+#bookingA {
+	width: 70%;
+	height: 43px;
+	background-color: white;
+	float: left;
+}
+#bookingBtn {
+	width: 10%;
+	height: 32px;/*43-11*/
+	float: left;	
+	background-color: rgb(235,94,93);
+	text-decoration: none;
+	padding-top: 11px;
+}
+#bookingBtn a:link, a:visited {
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+#bookingBtn:hover {
+  background: rgb(255,126,130);  
+}
+#location {
+	width: 100%;
+	height: 578px;/*630-52*/
+	padding-top: 52px;
+	background-color: white;
+}
+
+#locaAll {
+	width: 1029px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 48px;
+}
+#locaA {
+	width: 327px;
+	height: 186px;/*344-158*/
+	/*background-color: blue;*/
+	background-image: url('../img/locationA.jpg');
+	background-size: cover;
+	background-position: center center;
+	float: left;
+	margin-right: 24px;
+	color: white;
+	font-size: 28px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bolder;
+	padding-top: 158px;
+}
+#locaB {
+	width: 327px;
+	height: 186px;/*344-158*/
+	/*background-color: blue;*/
+	background-image: url('../img/locationB.jpg');
+	background-size: cover;
+	background-position: center center;
+	float: left;
+	margin-right: 24px;
+	color: white;
+	font-size: 28px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bolder;
+	padding-top: 158px;
+}
+#locaC {
+	width: 327px;
+	height: 186px;/*344-158*/
+	/*background-color: blue;*/
+	background-image: url('../img/locationC.jpg');
+	background-size: cover;
+	background-position: center center;
+	float: left;
+	color: white;
+	font-size: 28px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bolder;
+	padding-top: 158px;
+}
+.clear {
+	clear: both;
+}
+#listBtn {
+	width: 328px;
+	height: 32px;/*43-11*/
+	-webkit-border-radius: 5;
+	-moz-border-radius: 5;
+	border-radius: 5px;
+	font-family: Arial;
+	font-size: 18px;
+	background: #ffffff;
+	border: solid #aaaaaa 2px;
+	padding-top: 11px;
+}
+#listBtn a:link, a:visited {
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+#listBtn:hover {
+  border: solid #666666 2px;
+}
+}
